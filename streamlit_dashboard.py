@@ -216,8 +216,8 @@ recent_trend_ha = st.sidebar.slider(
 # LIVE PREDICTION ENGINE
 # ==============================================================================
 st.title("🌿 Coastal Erosion & Mangrove Degradation Risk Predictor")
-st.markdown(
-    "Move the **sidebar sliders** to dynamically update the risk gauge, shoreline projection, and global comparison."
+st.caption(
+    "Machine learning decision-support system evaluating coastal erosion vulnerability and 2050 shoreline shift using JRC and Global Mangrove Watch data."
 )
 
 user_input = np.array(
